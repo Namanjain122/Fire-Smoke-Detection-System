@@ -27,3 +27,13 @@ The system can accurately detect fire and smoke in video streams or CCTV footage
 | Libraries | OpenCV, PyTorch, NumPy |
 | Deployment | Flask / FastAPI |
 | Hardware | GPU-enabled server / local system |
+
+
+## 📂 Project Structure
+Fire-Smoke-Detection/
+├── 3737332045-preview.avi # Sample video for testing
+├── Fire_Detection.ipynb # Model training and evaluation notebook
+├── fire.py # Main entry point (model initialization)
+├── fire_detection_model.py # YOLO model configuration and loading
+├── live_detection.py # Real-time fire and smoke detection
+├── README.md # Project documentation
