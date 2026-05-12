@@ -168,7 +168,7 @@ python app/live_detection.py
 
 ## Naman Jain
 
-- GitHub: https://github.com/your-username
+- GitHub: [https://github.com/Namanjain122](https://github.com/Namanjain122)
 - LinkedIn: [Link to post](https://www.linkedin.com/posts/naman-jain-9136732aa_imc25-indiamobilecongress-computervision-activity-7423941683790151681-M3Nj?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEp-OF8BoZi6dSyYN5Xrf1kujyocZc_kzTM)
 
 ---
