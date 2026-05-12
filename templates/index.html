@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>🔥 Fire Detection WebApp</title>
+    <style>
+        body { text-align: center; font-family: Arial, sans-serif; margin: 30px; }
+        h2 { color: red; }
+        video, img { max-width: 80%; margin-top: 20px; border: 2px solid #333; }
+        a { display: block; margin-top: 15px; color: blue; text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <h2>🔥 Fire Detection WebApp</h2>
+    <p>Upload an <b>Image, Video,</b> or <b>ZIP Folder</b> for Fire Detection</p>
+
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" required>
+        <br><br>
+        <input type="submit" value="Upload & Detect">
+    </form>
+
+    {% if image_file %}
+    <h3>Predicted Image:</h3>
+    <img src="{{ url_for('static', filename=image_file) }}" alt="Predicted Image">
+    {% endif %}
+
+    {% if video_file %}
+        <h3>Predicted Video:</h3>
+        <video controls autoplay>
+            <source src="{{ url_for('static', filename=video_file) }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <a href="{{ url_for('static', filename=video_file) }}" download>Download Video</a>
+    {% endif %}
+
+    {% if zip_done %}
+        <h3>✅ ZIP Processed Successfully!</h3>
+        <p>All outputs are saved in: <b>{{ zip_path }}</b></p>
+    {% endif %}
+</body>
+</html>
