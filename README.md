@@ -1,6 +1,5 @@
-# 🔥 Real-Time Fire and Smoke Detection System using YOLO
-
-## 📘 Overview
+🔥 Real-Time Fire and Smoke Detection System using YOLO
+📘 Overview
 
 This project is a real-time Fire and Smoke Detection System built using YOLO-based object detection models.
 
@@ -8,24 +7,16 @@ The system is designed to monitor live CCTV feeds, surveillance streams, and vid
 
 Developed during my internship, this solution is actively deployed in a live environment for continuous monitoring and fire safety operations.
 
----
-
-# 🚀 Features
-
-- 🔥 Real-time fire detection
-- 💨 Smoke detection with bounding box localization
-- 📹 Supports CCTV feeds, webcams, RTSP streams, and video files
-- ⚡ Optimized YOLO inference for low latency
-- 🧠 Custom-trained model on manually labeled datasets
-- 🚨 Alert-ready architecture for emergency notification systems
-- ☁️ Production deployment support
-- 🧩 Modular architecture for scalability and integration
-
----
-
-# 🧠 System Architecture
-
-```text
+🚀 Features
+🔥 Real-time fire detection
+💨 Smoke detection with bounding box localization
+📹 Supports CCTV feeds, webcams, RTSP streams, and video files
+⚡ Optimized YOLO inference for low latency
+🧠 Custom-trained model on manually labeled datasets
+🚨 Alert-ready architecture for emergency notification systems
+☁️ Production deployment support
+🧩 Modular architecture for scalability and integration
+🧠 System Architecture
 Input Video Stream
         ↓
 Frame Extraction
@@ -37,134 +28,92 @@ Bounding Box Prediction
 Alert Trigger / Visualization
         ↓
 Real-Time Monitoring Dashboard
-```
-
----
-
-# 🧑‍💻 Tech Stack
-
-| Category | Technologies |
-|---|---|
-| Deep Learning | YOLOv5 / YOLOv8 |
-| Programming Language | Python |
-| Computer Vision | OpenCV |
-| Deep Learning Framework | PyTorch |
-| Annotation Tool | Label Studio |
-| Backend/API | Flask / FastAPI |
-| Numerical Computing | NumPy |
-| Deployment | GPU-enabled Server |
-
----
-
-# 📂 Project Structure
-
-```text
+🧑‍💻 Tech Stack
+Category	Technologies
+Deep Learning	YOLOv5 / YOLOv8
+Programming Language	Python
+Computer Vision	OpenCV
+Deep Learning Framework	PyTorch
+Annotation Tool	Label Studio
+Backend/API	Flask
+Numerical Computing	NumPy
+Deployment	GPU-enabled Server
+📂 Project Structure
 fire-smoke-detection-system/
 │
-├── app/
-│   ├── live_detection.py
-│   ├── inference.py
-│   ├── alert_system.py
-│   └── utils/
+├── Live_Flask_app/
+│   ├── live_detection_dev.py
+│   └── live_detection_prod.py
 │
-├── models/
-│   └── fire_smoke_yolo.pt
+├── static_flask_app/
+│   ├── static_fire_detection_dev.py
+│   └── static_fire_detection_prod.py
 │
-├── notebooks/
-│   └── fire_detection_training.ipynb
+├── Notebook/
+│   └── Fire_Detection (1).ipynb
 │
-├── demo/
-│   ├── demo_video.mp4
-│   └── screenshots/
+├── results/
+│   └── image/
+│       ├── download.jpg
+│       └── fire-flames-with-smoke-on-black-background-free-photo.jpg
 │
-├── requirements.txt
+├── templates/
+│   └── index.html
+│
 ├── README.md
-└── app.py
-```
-
----
-
-# 📊 Model Capabilities
+├── Sample_Demo_Video.avi
+└── best.pt
+📊 Model Capabilities
 
 The YOLO model was custom-trained on fire and smoke datasets with manually annotated images to improve detection robustness under different environmental conditions such as:
 
-- Indoor fire
-- Outdoor fire
-- Dense smoke
-- Low-light environments
-- Industrial monitoring scenarios
+Indoor fire
+Outdoor fire
+Dense smoke
+Low-light environments
+Industrial monitoring scenarios
+📸 Sample Results
+🔥 Fire Detection
 
----
+results/image/download.jpg
 
-# 📸 Sample Results
+💨 Smoke Detection
 
-## Fire Detection
-<img width="300" height="168" alt="download" src="https://github.com/user-attachments/assets/c1092887-a1f3-4e60-ae62-c4c77d9c412e" />
+results/image/fire-flames-with-smoke-on-black-background-free-photo.jpg
 
-
-## Smoke Detection
-<img width="300" height="200" alt="fire-flames-with-smoke-on-black-background-free-photo" src="https://github.com/user-attachments/assets/da24a149-3b19-4e20-8e58-3923dc2544c9" />
-
-# ⚙️ Installation
-
-## Clone Repository
-
-```bash
-git clone https://github.com/your-username/fire-smoke-detection-system.git
-cd fire-smoke-detection-system
-```
-
----
-
-## Install Dependencies
-
-```bash
+⚙️ Installation
+Clone Repository
+git clone https://github.com/Namanjain122/Fire-Smoke-Detection-System.git
+cd Fire-Smoke-Detection-System
+Install Dependencies
 pip install -r requirements.txt
-```
+Run Live Detection System
+python Live_Flask_app/live_detection_dev.py
+Run Static Detection System
+python static_flask_app/static_fire_detection_dev.py
+🎥 Demo
 
----
+Sample demo video included:
 
-## Run Detection System
+Sample_Demo_Video.avi
+🌍 Real-World Applications
+Smart surveillance systems
+Industrial safety monitoring
+Warehouse fire prevention
+Forest fire early detection
+Smart city monitoring
+Public safety systems
+🔮 Future Improvements
+SMS / Email alert integration
+Telegram / WhatsApp notifications
+Edge AI deployment
+Multi-camera monitoring support
+Cloud dashboard analytics
+Thermal camera integration
 
-```bash
-python app/live_detection.py
-```
-
----
-
-# 🎥 Demo
-
-[Link to post](https://www.linkedin.com/posts/naman-jain-9136732aa_imc25-indiamobilecongress-computervision-activity-7423941683790151681-M3Nj?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEp-OF8BoZi6dSyYN5Xrf1kujyocZc_kzTM)
-
----
-
-# 🌍 Real-World Applications
-
-- Smart surveillance systems
-- Industrial safety monitoring
-- Warehouse fire prevention
-- Forest fire early detection
-- Smart city monitoring
-- Public safety systems
-
----
-
-# 🔮 Future Improvements
-
-- SMS / Email alert integration
-- Telegram / WhatsApp notifications
-- Edge AI deployment
-- Multi-camera monitoring support
-- Cloud dashboard analytics
-- Thermal camera integration
-
----
-
-# 👨‍💻 Author
-
-## Naman Jain
-
-- GitHub: [https://github.com/Namanjain122](https://github.com/Namanjain122)
+👨‍💻 Author
+Naman Jain
+GitHub: Namanjain122 GitHub
 - LinkedIn: [Link to post](https://www.linkedin.com/posts/naman-jain-9136732aa_imc25-indiamobilecongress-computervision-activity-7423941683790151681-M3Nj?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEp-OF8BoZi6dSyYN5Xrf1kujyocZc_kzTM)
 
 ---
