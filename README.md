@@ -1,3 +1,11 @@
+
+
+https://github.com/user-attachments/assets/8b363e2d-3739-4e29-9c82-65967e9c982f
+
+
+
+
+
 # 🔥 Real-Time Fire & Smoke Detection System using YOLO
 
 <div align="center">
