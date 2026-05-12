@@ -169,7 +169,7 @@ python app/live_detection.py
 ## Naman Jain
 
 - GitHub: https://github.com/your-username
-- LinkedIn: Add your LinkedIn profile
+- LinkedIn: [](https://www.linkedin.com/posts/naman-jain-9136732aa_imc25-indiamobilecongress-computervision-activity-7423941683790151681-M3Nj?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEp-OF8BoZi6dSyYN5Xrf1kujyocZc_kzTM)
 
 ---
 
