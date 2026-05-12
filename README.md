@@ -1,4 +1,3 @@
-<img width="300" height="168" alt="download" src="https://github.com/user-attachments/assets/cd3f9093-447b-431d-b28b-ff993e864116" />
 # 🔥 Real-Time Fire & Smoke Detection System using YOLO
 
 <div align="center">
@@ -130,12 +129,14 @@ The YOLO model was custom-trained on manually annotated fire and smoke datasets 
 ```text
 results/image/download.jpg
 ```
+<img width="300" height="168" alt="download" src="https://github.com/user-attachments/assets/cd3f9093-447b-431d-b28b-ff993e864116" />
 
 ## 💨 Smoke Detection
 
 ```text
 results/image/fire-flames-with-smoke-on-black-background-free-photo.jpg
 ```
+<img width="300" height="200" alt="fire-flames-with-smoke-on-black-background-free-photo" src="https://github.com/user-attachments/assets/0f80437a-5fbb-4f64-8d01-357ba65b06fc" />
 
 ---
 
