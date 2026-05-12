@@ -1,3 +1,4 @@
+<img width="300" height="168" alt="download" src="https://github.com/user-attachments/assets/cd3f9093-447b-431d-b28b-ff993e864116" />
 # 🔥 Real-Time Fire & Smoke Detection System using YOLO
 
 <div align="center">
