@@ -204,7 +204,7 @@ Sample_Demo_Video.avi
 ## Naman Jain
 
 - GitHub: https://github.com/Namanjain122
-- LinkedIn: https://www.linkedin.com/posts/naman-jain-9136732aa_imc25-indiamobilecongress-computervision-activity-7423941683790151681-M3Nj
+- LinkedIn: [Link to Post](https://www.linkedin.com/posts/naman-jain-9136732aa_imc25-indiamobilecongress-computervision-activity-7423941683790151681-M3Nj)
 
 ---
 
