@@ -99,15 +99,11 @@ The YOLO model was custom-trained on fire and smoke datasets with manually annot
 # 📸 Sample Results
 
 ## Fire Detection
-(Add screenshot here)
+<img width="300" height="168" alt="download" src="https://github.com/user-attachments/assets/c1092887-a1f3-4e60-ae62-c4c77d9c412e" />
+
 
 ## Smoke Detection
-(Add screenshot here)
-
-## Live Monitoring Output
-(Add screenshot here)
-
----
+<img width="300" height="200" alt="fire-flames-with-smoke-on-black-background-free-photo" src="https://github.com/user-attachments/assets/da24a149-3b19-4e20-8e58-3923dc2544c9" />
 
 # ⚙️ Installation
 
