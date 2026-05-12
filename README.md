@@ -17,6 +17,8 @@ AI-powered fire and smoke detection system built with YOLO, OpenCV, and Flask fo
 </div>
 
 ---
+Model weights are not included due to size limitations.
+Contact for access or use your own trained weights.
 
 # 📌 Overview
 
