@@ -54,7 +54,7 @@ The solution was developed during my internship and deployed in a live monitorin
 # 🧠 System Workflow
 
 ```text
-Input Video Stream
+Input Video/photage Stream
         │
         ▼
 Frame Extraction
@@ -73,7 +73,8 @@ Real-Time Monitoring Dashboard
 ```
 
 ---
-<img width="950" height="772" alt="image" src="https://github.com/user-attachments/assets/61a4f93c-7789-4736-b62f-cf7d1d03b392" />
+<img width="1452" height="1162" alt="ar" src="https://github.com/user-attachments/assets/ba023810-24bd-44a1-9c0c-2a7bf7cc111d" />
+
 
 # 🛠️ Tech Stack
 
