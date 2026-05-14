@@ -73,6 +73,7 @@ Real-Time Monitoring Dashboard
 ```
 
 ---
+<img width="950" height="772" alt="image" src="https://github.com/user-attachments/assets/61a4f93c-7789-4736-b62f-cf7d1d03b392" />
 
 # 🛠️ Tech Stack
 
